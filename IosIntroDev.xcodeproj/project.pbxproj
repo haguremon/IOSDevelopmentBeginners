@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFB3C8A526844C160023A56D /* StreetBoardDescription in Resources */ = {isa = PBXBuildFile; fileRef = CFB3C8A426844C160023A56D /* StreetBoardDescription */; };
 		CFFC3BB0268321620057BF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFC3BAF268321620057BF31 /* AppDelegate.swift */; };
 		CFFC3BB2268321620057BF31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFC3BB1268321620057BF31 /* SceneDelegate.swift */; };
 		CFFC3BB4268321620057BF31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFC3BB3268321620057BF31 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CFB3C8A426844C160023A56D /* StreetBoardDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = StreetBoardDescription; sourceTree = "<group>"; };
 		CFFC3BAC268321620057BF31 /* IosIntroDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosIntroDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFC3BAF268321620057BF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFFC3BB1268321620057BF31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				CFFC3BB1268321620057BF31 /* SceneDelegate.swift */,
 				CFFC3BB3268321620057BF31 /* ViewController.swift */,
 				CFFC3BB5268321620057BF31 /* Main.storyboard */,
+				CFB3C8A426844C160023A56D /* StreetBoardDescription */,
 				CFFC3BB8268321650057BF31 /* Assets.xcassets */,
 				CFFC3BBA268321650057BF31 /* LaunchScreen.storyboard */,
 				CFFC3BBD268321650057BF31 /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFFC3BBC268321650057BF31 /* LaunchScreen.storyboard in Resources */,
+				CFB3C8A526844C160023A56D /* StreetBoardDescription in Resources */,
 				CFFC3BB9268321650057BF31 /* Assets.xcassets in Resources */,
 				CFFC3BB7268321620057BF31 /* Main.storyboard in Resources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.IosIntroDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.IosIntroDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
